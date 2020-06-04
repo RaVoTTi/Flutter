@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial_web/src/pages/praticanomas/number_page.dart';
 import 'package:flutter_tutorial_web/src/utils/iconos_utils.dart';
 
 class HomePageTemp extends StatelessWidget {
@@ -54,9 +53,16 @@ class HomePageTemp extends StatelessWidget {
     if (i % 2 == 0){
     Navigator.pushNamed(context, 'numberPage', );
     }
+    else if (i == 1){
+    Navigator.pushNamed(context, 'proffesionalPage', );
+    }
     else if (i == 7){
     Navigator.pushNamed(context, 'sevenPage', );
     }
+    else if (i == 17){
+    Navigator.pushNamed(context, 'animatedPage', );
+    }
+    
     else{
     Navigator.pushNamed(context, 'nada', );
 

@@ -5,6 +5,7 @@ import 'package:flutter_tutorial_web/src/pages/praticanomas/animated_container.d
 import 'package:flutter_tutorial_web/src/pages/praticanomas/impar_page.dart';
 import 'package:flutter_tutorial_web/src/pages/praticanomas/home_temp.dart';
 import 'package:flutter_tutorial_web/src/pages/praticanomas/number_page.dart';
+import 'package:flutter_tutorial_web/src/pages/praticanomas/proffesional_page.dart';
 import 'package:flutter_tutorial_web/src/pages/praticanomas/seven_page.dart';
 
 
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
           'numberPage'  : (BuildContext context) => NumberPage(),
           'sevenPage'   : (BuildContext context) => SevenPage(),
           'animatedPage': (BuildContext context) => AnimatedContainerPage(),
+          'proffesionalPage': (BuildContext context) => ProffesionalPage(),
         },
         onGenerateRoute: ( RouteSettings settings ){
 
